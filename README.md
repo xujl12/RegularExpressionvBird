@@ -60,6 +60,21 @@ grep -n 'go\{2,\}g' regular_expression.txt
 
 We further talk about sed, awk, diff and so on.
 
++ means one or more than one character repeat:
+o+ means o,oo,ooo....
+
+? means one or zero that character:
+o? means o or NULL
+
+| means or in the ''
+good|better, grep together
+
+() seperate the group:
+g(o|oo)d means god or good
+
+()+ combine the () and +
+A(xyz)+Z
+
 
 
 
